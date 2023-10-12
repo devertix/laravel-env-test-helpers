@@ -1,0 +1,28 @@
+{
+    "name": "devertix/env-test-helpers",
+    "description": "Commands for testing the health of some services",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Devertix\\EnvTestHelpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Norbert Mozsar",
+            "email": "norbert.mozsar@devertix.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devertix\\EnvTestHelpers\\EnvTestHelpersProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "require": {
+        "laravel/framework": "10.*",
+        "nesbot/carbon": "2.*"
+    }
+}
