@@ -1,7 +1,8 @@
 {
-    "name": "devertix/env-test-helpers",
+    "name": "devertix/laravel-env-test-helpers",
     "description": "Commands for testing the health of some services",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Devertix\\EnvTestHelpers\\": "src/"
